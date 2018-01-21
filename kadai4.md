@@ -17,7 +17,7 @@ imagesc(ORG); colormap(gray); colorbar;
 
 原画像を白黒濃淡画像にしたものを図2に示す．
 
-![原画像](https://github.com/be-bird/image_processing/blob/master/images/kadai4_1.png?raw=true)　　
+![原画像](https://github.com/be-bird/image_processing/blob/master/images/kadai4_1.png?raw=true)  
 図2　白黒濃淡画像
 
 ヒストグラムは，
@@ -26,5 +26,7 @@ imhist(ORG);
 
 で表示することができる．図2のヒストグラムを図3に示す．
 
-![原画像](https://github.com/be-bird/image_processing/blob/master/images/kadai4_1.png?raw=true)　　
+![原画像](https://github.com/be-bird/image_processing/blob/master/images/kadai4_2.png?raw=true)  
 図3　ヒストグラム
+
+図3を見ると，輝度値250以上の出現頻度が高いことが分かる．

@@ -39,7 +39,7 @@ imagesc(ORG); colormap(gray); colorbar; % 画像の表示
 
 図4に結果を示す．
 
-![原画像](https://github.com/be-bird/image_processing/blob/master/images/kadai7_3.png?raw=true)  
+![原画像](https://github.com/be-bird/image_processing/blob/master/images/kadai7_3.png?raw=true)  
 図4　ダイナミックレンジ拡大
 
 図4のヒストグラムを，
@@ -49,7 +49,7 @@ imhist(ORG); % 濃度ヒストグラムを生成、表示
 
 のようにして表示する．unit8を用いてORGの値を8ビット符号なし整数へ変換することができる．計算のため一度double型にしたORGの値を，ここで整数にしている．図5がそのヒストグラムである．
 
-![原画像](https://github.com/be-bird/image_processing/blob/master/images/kadai7_4.png?raw=true)  
+![原画像](https://github.com/be-bird/image_processing/blob/master/images/kadai7_4.png?raw=true)  
 図5　ヒストグラム（ダイナミックレンジ拡大時）
 
 ダイナミックレンジを拡大することによって，使われていなかった0付近の輝度値も使われるようになる．

@@ -61,4 +61,4 @@ imagesc(IMG); colormap(gray); colorbar; % 画像の表示
 ![原画像](https://github.com/be-bird/image_processing/blob/master/images/kadai9_5.png?raw=true)  
 図6　先鋭化
 
-図5のように，メディアンフィルタを用いたときが，一番綺麗にノイズ除去されているように見える．
+図4と図5を比べると，メディアンフィルタを用いたときの方が，綺麗にノイズ除去されているように見える．また図6のように，先鋭化によって，物体間の境界線が強調されて見える．

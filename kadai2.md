@@ -60,3 +60,4 @@ imagesc(IMG); colormap(gray); colorbar;  axis image;
 ![原画像](https://github.com/be-bird/image_processing/blob/master/images/kadai2_4.png?raw=true)  
 図5　8階調
 
+2階調画像と8階調画像を比べると，2階調では猫の輪郭が分かりづらくなっていることが分かる．

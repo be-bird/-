@@ -9,16 +9,16 @@
 ![原画像](https://github.com/be-bird/image_processing/blob/master/images/ponta.png?raw=true)  
 図1　原画像
 
-まず，原画像を読み込み，グレースケールにする．
+まず，原画像を読み込み，白黒濃淡画像にする．
 
 ORG=imread('ponta.png'); % 原画像の入力  
 ORG = rgb2gray(ORG); colormap(gray); colorbar;  
 imagesc(ORG); axis image; % 画像の表示
 
-原画像をグレースケールにしたものを図2に示す．
+原画像を白黒濃淡画像にしたものを図2に示す．
 
 ![原画像](https://github.com/be-bird/image_processing/blob/master/images/kadai2_1.png?raw=true)  
-図2　グレースケール
+図2　白黒濃淡画像
 
 次に，これを2階調画像にする．閾値は128の1つに設定する．
 

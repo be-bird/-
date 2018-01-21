@@ -50,7 +50,7 @@ imagesc(IMG); colormap(gray); colorbar; % 画像の表示
 ![原画像](https://github.com/be-bird/image_processing/blob/master/images/kadai9_4.png?raw=true)  
 図5　メディアンフィルタによるノイズ除去
 
-図3のノイズを自分で設計したフィルタで除去する．
+画像の先鋭化を行う．以下のようにフィルタの設計をすることによって，先鋭化を行うことができる．
 
 f=[0,-1,0;-1,5,-1;0,-1,0]; % フィルタの設計  
 IMG = filter2(f,IMG,'same'); % フィルタの適用  
@@ -59,6 +59,6 @@ imagesc(IMG); colormap(gray); colorbar; % 画像の表示
 図6に結果を示す．
 
 ![原画像](https://github.com/be-bird/image_processing/blob/master/images/kadai9_5.png?raw=true)  
-図6　設計したフィルタによるノイズ除去
+図6　先鋭化
 
 図5のように，メディアンフィルタを用いたときが，一番綺麗にノイズ除去されているように見える．

@@ -27,7 +27,7 @@ imagesc(IMG); colormap(gray); colorbar;  axis image;
 
 2階調画像を図3に示す．
 
-![原画像](https://github.com/be-bird/image_processing/blob/master/images/kadai2_2.png?raw=true)  
+![原画像](https://github.com/be-bird/image_processing/blob/master/images/kadai2_2.png?raw=true)  
 図3　2階調
 
 4階調画像は，閾値を3つ設定し，
@@ -40,7 +40,7 @@ imagesc(IMG); colormap(gray); colorbar;  axis image;
 
 とする．4階調画像を図4に示す．
 
-![原画像](https://github.com/be-bird/image_processing/blob/master/images/kadai2_3.png?raw=true)  
+![原画像](https://github.com/be-bird/image_processing/blob/master/images/kadai2_3.png?raw=true)  
 図4　4階調
 
 同様に，8階調の場合は閾値が7つとなり，
@@ -57,6 +57,6 @@ imagesc(IMG); colormap(gray); colorbar;  axis image;
 
 とすることができる．8階調画像を図5に示す．
 
-![原画像](https://github.com/be-bird/image_processing/blob/master/images/kadai2_4.png?raw=true)  
+![原画像](https://github.com/be-bird/image_processing/blob/master/images/kadai2_4.png?raw=true)  
 図5　8階調
 

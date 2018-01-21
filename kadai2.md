@@ -17,7 +17,7 @@ imagesc(ORG); axis image; % 画像の表示
 
 原画像をグレースケールにしたものを図2に示す．
 
-![原画像](https://github.com/be-bird/image_processing/blob/master/images/kadai2_1.png?raw=true)  
+![原画像](https://github.com/be-bird/image_processing/blob/master/images/kadai2_1.png?raw=true)  
 図2　グレースケール
 
 次に，これを2階調画像にする．閾値は128の1つに設定する．

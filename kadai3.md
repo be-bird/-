@@ -47,3 +47,5 @@ imagesc(IMG); colormap(gray); colorbar;
 
 ![原画像](https://github.com/be-bird/image_processing/blob/master/images/kadai3_5.png?raw=true)  
 図6　閾値192
+
+どの輝度値を閾値にするかによって，2階調画像の見やすさが異なることが分かる．
